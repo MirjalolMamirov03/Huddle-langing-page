@@ -1,1 +1,52 @@
 @import url(../css/fonts.css);
+
+/* CUSTOM PROPS */
+
+:root {
+    --primary-ink: #684BB1;
+    --White: #FFF;
+    --dark-blue: #00252E;
+    --active-btn: #E880E8;
+    --active-icon: #FF52C1;
+    --Open_Sans: "Open_Sans";
+    --Poppins: "Poppins";
+}
+
+/* //CUSTOM PROPS */
+
+/* GLOBAL-STYLES */
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-top: 64px;
+    padding-bottom: 40px;
+    background-color: var(--primary-ink);
+}
+
+/* //GLOBAL-STYLES */
